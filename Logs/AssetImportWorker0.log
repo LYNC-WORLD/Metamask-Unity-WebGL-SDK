@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57116
+63200
 Successfully changed project path to: /Users/shanujoshi/LYNC/UnitySDK/PublishedProject/Metamask-SDK
 /Users/shanujoshi/LYNC/UnitySDK/PublishedProject/Metamask-SDK
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/shanujoshi/LYNC/UnitySDK/PublishedP
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 147.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 102.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,99 +69,99 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56630
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56514
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.2f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.2f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.001278 seconds.
+Registered in 0.002848 seconds.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 129.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 99.14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.906 seconds
+- Completed reload, in  1.555 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1908ms)
-		BeginReloadAssembly (190ms)
+	ReloadAssembly (1556ms)
+		BeginReloadAssembly (144ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (4ms)
-		EndReloadAssembly (1423ms)
-			LoadAssemblies (186ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1180ms)
+			LoadAssemblies (143ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (162ms)
+			SetupTypeCache (122ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (1050ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (854ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (132ms)
+				InitializePlatformSupportModulesInManaged (126ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (129ms)
-				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (596ms)
-				ProcessInitializeOnLoadMethodAttributes (189ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (456ms)
+				ProcessInitializeOnLoadMethodAttributes (168ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007497 seconds.
+Registered in 0.002266 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/shanujoshi/LYNC/UnitySDK/PublishedProject/Metamask-SDK/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/shanujoshi/LYNC/UnitySDK/PublishedProject/Metamask-SDK/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.091 seconds
+- Completed reload, in  2.489 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3093ms)
-		BeginReloadAssembly (341ms)
+	ReloadAssembly (2491ms)
+		BeginReloadAssembly (240ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (68ms)
+			DisableScriptedObjects (35ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (2420ms)
-			LoadAssemblies (219ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1957ms)
+			LoadAssemblies (177ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (407ms)
+			SetupTypeCache (338ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (1552ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (1216ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (78ms)
-				SetLoadedEditorAssemblies (2ms)
+				InitializePlatformSupportModulesInManaged (63ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (159ms)
-				ProcessInitializeOnLoadAttributes (1130ms)
-				ProcessInitializeOnLoadMethodAttributes (180ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (884ms)
+				ProcessInitializeOnLoadMethodAttributes (135ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (83.4 KB). Loaded Objects now: 3822.
-Memory consumption went from 45.2 MB to 45.1 MB.
-Total: 15.011583 ms (FindLiveObjects: 0.242750 ms CreateObjectMapping: 0.085833 ms MarkObjects: 14.545542 ms  DeleteObjects: 0.136208 ms)
+Unloading 29 unused Assets / (83.5 KB). Loaded Objects now: 3822.
+Memory consumption went from 45.6 MB to 45.5 MB.
+Total: 3.177792 ms (FindLiveObjects: 0.220167 ms CreateObjectMapping: 0.081917 ms MarkObjects: 2.747625 ms  DeleteObjects: 0.126750 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -175,71 +175,43 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 239327.502450 seconds.
-  path: Assets/LYNC-Metamask-SDK/LYNC-Metamask-Wallet-SDK.dll
-  artifactKey: Guid(0c3e1dafebca642a8952f66ce5fa5d35) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
-Start importing Assets/LYNC-Metamask-SDK/LYNC-Metamask-Wallet-SDK.dll using Guid(0c3e1dafebca642a8952f66ce5fa5d35) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '484366b449f16128e55afe0803dcb0b1') in 1.241952 seconds 
+  Time since last request: 41728.251744 seconds.
+  path: Assets/LYNC-Metamask-SDK
+  artifactKey: Guid(a0d59364fd82b477d96f33c5bd6fdeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK using Guid(a0d59364fd82b477d96f33c5bd6fdeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6aa16b67c80544d289f3f66da989d31') in 0.013818 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/LYNC-Metamask-SDK/Logo/MetaMask_Fox.svg.png
-  artifactKey: Guid(19f69a12d1f16405992aae2cb1e4622b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
-Start importing Assets/LYNC-Metamask-SDK/Logo/MetaMask_Fox.svg.png using Guid(19f69a12d1f16405992aae2cb1e4622b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '399a60b1292907f219f3037a9582d04a') in 1.041555 seconds 
+  Time since last request: 2.557982 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(5b7992e6e58a44c3983133bf213bb841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(5b7992e6e58a44c3983133bf213bb841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3473ef1a75ed0a093a0bf59a22f64c') in 0.002898 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.015494 seconds.
-  path: Assets/LYNC-Metamask-SDK/Scripts/FetchWallet.cs
-  artifactKey: Guid(1e41856c3522544b9a4b692f2c800a83) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
-Start importing Assets/LYNC-Metamask-SDK/Scripts/FetchWallet.cs using Guid(1e41856c3522544b9a4b692f2c800a83) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '5f8a9195cf8d77faf89c7ccc99c5064d') in 0.938148 seconds 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.21 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (41.4 KB). Loaded Objects now: 3822.
-Memory consumption went from 217.6 MB to 217.6 MB.
-Total: 6.098958 ms (FindLiveObjects: 0.209125 ms CreateObjectMapping: 0.080292 ms MarkObjects: 5.684292 ms  DeleteObjects: 0.124250 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (63.6 KB). Loaded Objects now: 3822.
-Memory consumption went from 217.5 MB to 217.5 MB.
-Total: 8.012209 ms (FindLiveObjects: 0.352041 ms CreateObjectMapping: 0.083583 ms MarkObjects: 7.469375 ms  DeleteObjects: 0.105958 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 1.381656 seconds.
+  path: Assets/WebGLTemplates
+  artifactKey: Guid(a5bdc45ebad3f4a9490ba6c3021c7bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLTemplates using Guid(a5bdc45ebad3f4a9490ba6c3021c7bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42771f803771566ca53944e8fb23b5d') in 0.002095 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.587917 seconds.
+  Time since last request: 5.605959 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(7d98a9332988f429a9d5d310e54841a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(7d98a9332988f429a9d5d310e54841a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff3f68bc76ad161bab7a1ff79a3bfb9') in 0.001627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.868289 seconds.
   path: Assets/Scenes/ConnectWallet.unity
-  artifactKey: Guid(97fcc4946189b4f15b23205c8d36eb5d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
-Start importing Assets/Scenes/ConnectWallet.unity using Guid(97fcc4946189b4f15b23205c8d36eb5d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '98828882a20ec49a9a4f240c68b7b790') in 0.021092 seconds 
+  artifactKey: Guid(97fcc4946189b4f15b23205c8d36eb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ConnectWallet.unity using Guid(97fcc4946189b4f15b23205c8d36eb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c335d65b578a412455dceabbe2b514') in 0.001327 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 41.496628 seconds.
-  path: Assets/Scenes/ConnectWallet.unity
-  artifactKey: Guid(97fcc4946189b4f15b23205c8d36eb5d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
-Start importing Assets/Scenes/ConnectWallet.unity using Guid(97fcc4946189b4f15b23205c8d36eb5d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '083f4f57724d46cfe6ea03dbf92cc275') in 0.030113 seconds 
+  Time since last request: 5.149553 seconds.
+  path: Assets/LYNC-Metamask-SDK/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61546fd24c7de5f4325aa31eb8d3c84') in 0.001323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.694610 seconds.
+  path: Assets/LYNC-Metamask-SDK/Scenes/ConnectWallet.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/Scenes/ConnectWallet.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21fdd1a3e251f1cfa00b9a5b3f838db0') in 0.001019 seconds 
