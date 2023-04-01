@@ -1428,7 +1428,7 @@ MonoBehaviour:
   InstallWalletScreen: {fileID: 565180020}
   ConnectWalletScreen: {fileID: 1278002366}
   InvalidAPIKeyScreen: {fileID: 609166091}
-  APIKey: 
+  APIKey: B30D905974544D082BFEA8A727534195
 --- !u!4 &1758450286
 Transform:
   m_ObjectHideFlags: 0

@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/ConnectWallet.unity
-    guid: 97fcc4946189b4f15b23205c8d36eb5d
+    path: Assets/LYNC-Metamask-SDK/Scenes/ConnectWallet.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/FetchWallet.unity
+    path: Assets/LYNC-Metamask-SDK/Scenes/FetchWallet.unity
     guid: d50af9452e0764a91a175b7c964b9294
   m_configObjects: {}

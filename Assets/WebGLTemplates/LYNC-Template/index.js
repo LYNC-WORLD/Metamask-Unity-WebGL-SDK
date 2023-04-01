@@ -13,7 +13,7 @@ ethereum.on("accountsChanged", (accounts) => {
     }
 });
 
-ethereum.on('chainChanged', (_chainId) => {
-    // console.log("chainId"+_chainId);
-    window.location.reload();
-})
+// ethereum.on('chainChanged', (_chainId) => {
+//     // console.log("chainId"+_chainId);
+//     window.location.reload();
+// })
