@@ -1428,7 +1428,7 @@ MonoBehaviour:
   InstallWalletScreen: {fileID: 565180020}
   ConnectWalletScreen: {fileID: 1278002366}
   InvalidAPIKeyScreen: {fileID: 609166091}
-  APIKey: B30D905974544D082BFEA8A727534195
+  APIKey: 
 --- !u!4 &1758450286
 Transform:
   m_ObjectHideFlags: 0
@@ -1456,7 +1456,7 @@ MonoBehaviour:
   m_Script: {fileID: 1632319265, guid: 0c3e1dafebca642a8952f66ce5fa5d35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentChain: 0
+  currentChain: 4
   currentChainID: 
 --- !u!1 &1784424512
 GameObject:

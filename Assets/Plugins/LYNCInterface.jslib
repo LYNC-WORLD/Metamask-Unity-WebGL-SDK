@@ -40,6 +40,7 @@ var LibraryMyPlugin = {
         var bufferSize = lengthBytesUTF8(str) + 1;
         var buffer = _malloc(bufferSize);
         stringToUTF8(str, buffer, bufferSize);
+        window.lync.Web3Init();
         return buffer;
     },
     
@@ -55,18 +56,18 @@ var LibraryMyPlugin = {
       await window.ethereum.request({
         method: "wallet_addEthereumChain",
         params: [
-          {
-            chainId: "0x63CB43CF",
-            rpcUrls: ["https://lyncworld-1674265551-1.sagarpc.xyz/"],
-            chainName: "lyncworld",
-            nativeCurrency: {
-              name: "SAGA",
-              symbol: "SAGA",
-              decimals: 18,
-            },
-            blockExplorerUrls: ["https://www.saga.xyz/"],
-          },
-        ],
+              {
+                chainId: "0x1389",
+                chainName: "Mantle Testnet",
+                nativeCurrency: {
+                  name: "BIT",
+                  symbol: "BIT",
+                  decimals: 18,
+                },
+                blockExplorerUrls: ["https://explorer.testnet.mantle.xyz"],
+                rpcUrls: ["https://rpc.testnet.mantle.xyz"], //
+              },
+          ],
       });
     },
     
@@ -76,6 +77,9 @@ var LibraryMyPlugin = {
         var buffer = _malloc(bufferSize);
         stringToUTF8(str, buffer, bufferSize);
         return buffer;
+    },
+    SendTokens: function (ReceiverAddress,value){
+      window.lync.SendTokens(UTF8ToString(ReceiverAddress),UTF8ToString(value));
     },
 };
 
