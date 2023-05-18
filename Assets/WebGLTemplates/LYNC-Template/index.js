@@ -31,7 +31,8 @@ async function SendTokens(ReceiverAddress,value){
         value: ethers.utils.parseEther(value),
         data: ""
     }).then(()=>{
-        console.log("SENT");
+        console.log("SENTTTT");
+        window.alert("Sent")
     })
 }
 

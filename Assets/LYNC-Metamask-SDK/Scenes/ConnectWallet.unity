@@ -1456,7 +1456,7 @@ MonoBehaviour:
   m_Script: {fileID: 1632319265, guid: 0c3e1dafebca642a8952f66ce5fa5d35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentChain: 4
+  currentChain: 0
   currentChainID: 
 --- !u!1 &1784424512
 GameObject:

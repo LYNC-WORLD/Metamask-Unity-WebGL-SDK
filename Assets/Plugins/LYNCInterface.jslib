@@ -52,20 +52,20 @@ var LibraryMyPlugin = {
         }
     },
     
-   AddChain: async function () {
+   AddChain: async function (ChainID, NetworkURL, NetworkName, CurrencyName, CurrencySymbol, BlockExplorerURL) {
       await window.ethereum.request({
         method: "wallet_addEthereumChain",
         params: [
               {
-                chainId: "0x1389",
-                chainName: "Mantle Testnet",
+                chainId: UTF8ToString(ChainID),
+                chainName: UTF8ToString(NetworkName),
                 nativeCurrency: {
-                  name: "BIT",
-                  symbol: "BIT",
+                  name: UTF8ToString(CurrencyName),
+                  symbol: UTF8ToString(CurrencySymbol),
                   decimals: 18,
                 },
-                blockExplorerUrls: ["https://explorer.testnet.mantle.xyz"],
-                rpcUrls: ["https://rpc.testnet.mantle.xyz"], //
+                blockExplorerUrls: [UTF8ToString(BlockExplorerURL)],
+                rpcUrls: [UTF8ToString(NetworkURL)],
               },
           ],
       });
