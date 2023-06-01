@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51291
+54762
 Successfully changed project path to: /Users/shanujoshi/LYNC/UnitySDK/PublishedProject/Metamask-SDK
 /Users/shanujoshi/LYNC/UnitySDK/PublishedProject/Metamask-SDK
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/shanujoshi/LYNC/UnitySDK/PublishedP
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 93.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 102.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,84 +69,84 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56815
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56577
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.2f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.2f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.002025 seconds.
+Registered in 0.000812 seconds.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 94.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 95.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.595 seconds
+- Completed reload, in  1.648 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1596ms)
-		BeginReloadAssembly (133ms)
+	ReloadAssembly (1650ms)
+		BeginReloadAssembly (148ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1231ms)
-			LoadAssemblies (131ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1259ms)
+			LoadAssemblies (144ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (127ms)
+			SetupTypeCache (120ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (909ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (951ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (136ms)
+				InitializePlatformSupportModulesInManaged (112ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (95ms)
 				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (498ms)
-				ProcessInitializeOnLoadMethodAttributes (176ms)
+				ProcessInitializeOnLoadAttributes (545ms)
+				ProcessInitializeOnLoadMethodAttributes (194ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002143 seconds.
+Registered in 0.002140 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/shanujoshi/LYNC/UnitySDK/PublishedProject/Metamask-SDK/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/shanujoshi/LYNC/UnitySDK/PublishedProject/Metamask-SDK/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.589 seconds
+- Completed reload, in  2.507 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2591ms)
-		BeginReloadAssembly (246ms)
+	ReloadAssembly (2509ms)
+		BeginReloadAssembly (228ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (43ms)
+			DisableScriptedObjects (39ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1965ms)
-			LoadAssemblies (150ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1989ms)
+			LoadAssemblies (106ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (332ms)
+			SetupTypeCache (301ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (1271ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1342ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (67ms)
+				InitializePlatformSupportModulesInManaged (68ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (130ms)
-				ProcessInitializeOnLoadAttributes (922ms)
-				ProcessInitializeOnLoadMethodAttributes (147ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (983ms)
+				ProcessInitializeOnLoadMethodAttributes (154ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -155,13 +155,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (88.9 KB). Loaded Objects now: 3823.
-Memory consumption went from 43.7 MB to 43.6 MB.
-Total: 3.747875 ms (FindLiveObjects: 0.252333 ms CreateObjectMapping: 0.088166 ms MarkObjects: 3.270334 ms  DeleteObjects: 0.135333 ms)
+Unloading 29 unused Assets / (119.3 KB). Loaded Objects now: 3823.
+Memory consumption went from 41.4 MB to 41.2 MB.
+Total: 2.948000 ms (FindLiveObjects: 0.227917 ms CreateObjectMapping: 0.083708 ms MarkObjects: 2.528375 ms  DeleteObjects: 0.107084 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -175,19 +175,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 9678.428440 seconds.
-  path: Assets/LYNC-Metamask-SDK/LYNC-Metamask-Wallet-SDK.dll
-  artifactKey: Guid(0c3e1dafebca642a8952f66ce5fa5d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LYNC-Metamask-SDK/LYNC-Metamask-Wallet-SDK.dll using Guid(0c3e1dafebca642a8952f66ce5fa5d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7643f99ab659240c6c9b4e7a69cfa219') in 0.135092 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.061490 seconds.
-  path: Assets/LYNC-Metamask-SDK/Scenes
-  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LYNC-Metamask-SDK/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69979ccd77258bf6246b55123c87abcb') in 0.001328 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.989385 seconds.
-  path: Assets/LYNC-Metamask-SDK/Scenes/ConnectWallet.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LYNC-Metamask-SDK/Scenes/ConnectWallet.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a73f25eb4a91f2c97254198de8d9648') in 0.001485 seconds 
+  Time since last request: 45402.261173 seconds.
+  path: Assets/LYNC-Metamask-SDK/Scenes/FetchWallet.unity
+  artifactKey: Guid(d50af9452e0764a91a175b7c964b9294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/Scenes/FetchWallet.unity using Guid(d50af9452e0764a91a175b7c964b9294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce77ca600fdca7d90384b75319b3eea5') in 0.012801 seconds 
