@@ -1,6 +1,6 @@
 # Metamask-Unity-Wallet-SDK
 
-###Integrate Metamask Wallet into game engine
+### Integrate Metamask Wallet into game engine
 
 LYNC Metamask Wallet SDK is a one-stop solution for game developers to easily integrate Metamask into their game engine and deploy their game on multiple networks with just a few clicks. This SDK allows game developers to monitor gamers’ data via LYNC analytics system and update the SDK without leaving the game engine.
 
