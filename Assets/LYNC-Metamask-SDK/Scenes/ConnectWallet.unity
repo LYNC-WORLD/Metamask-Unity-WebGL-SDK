@@ -1064,19 +1064,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1566347459}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1758450285}
-        m_TargetAssemblyTypeName: Interface, Assembly-CSharp
-        m_MethodName: DownloadMetamaskWallet
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1566347459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1128,7 +1116,7 @@ GameObject:
   - component: {fileID: 1608554923}
   - component: {fileID: 1608554922}
   m_Layer: 5
-  m_Name: Connect-OKX-Button
+  m_Name: Connect-Metamask-Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1198,19 +1186,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1608554923}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1758450285}
-        m_TargetAssemblyTypeName: Interface, Assembly-CSharp
-        m_MethodName: OpenMetamaskWallet
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1608554923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1425,10 +1401,12 @@ MonoBehaviour:
   m_Script: {fileID: 83342103, guid: 0c3e1dafebca642a8952f66ce5fa5d35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  APIKey: 
   InstallWalletScreen: {fileID: 565180020}
   ConnectWalletScreen: {fileID: 1278002366}
   InvalidAPIKeyScreen: {fileID: 609166091}
-  APIKey: 
+  ConnectMetamask: {fileID: 1608554922}
+  DownloadMetamask: {fileID: 1566347458}
 --- !u!4 &1758450286
 Transform:
   m_ObjectHideFlags: 0
@@ -1456,8 +1434,7 @@ MonoBehaviour:
   m_Script: {fileID: 1632319265, guid: 0c3e1dafebca642a8952f66ce5fa5d35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentChain: 0
-  currentChainID: 
+  currentChain: 3
 --- !u!1 &1784424512
 GameObject:
   m_ObjectHideFlags: 0
