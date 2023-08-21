@@ -50,3 +50,12 @@ Congratulation, you have successfully integrated the Metamask wallet with your f
 NOTE: If you wish to use wallet address inside game after user's wallet is connected, use:
 
 ```PlayerPrefs.GetString("WalletAddress");```
+
+
+If you face any error, while Build and Run.
+
+PLEASE ADD, Unity package install by git link:
+
+```com.unity.nuget.newtonsoft-json```
+
+![image](https://1898638688-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F3h3YUWYt8sR5rHLOIeFc%2Fuploads%2F9nwo1yYtk7mKRGrZZd5S%2FScreenshot%202023-08-21%20130643.png?alt=media&token=27f6acf8-4196-42be-8043-cc4c2bad2929)
