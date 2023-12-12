@@ -5,7 +5,7 @@ var LibraryMyPlugin = {
         error: "",
    },
    
-   CheckIsMetamaskWalletInstalled: function (){
+   WalletInstalled: function (){
         if(window.ethereum === undefined){
             return false; // Wallet is not installed
         }
@@ -15,8 +15,14 @@ var LibraryMyPlugin = {
             }
         }
     },
-   
-   GetCurrentChain: function () {
+   WalletConnected: function (){
+        const walletAddress = JSON.stringify(MyData.walletAddress);
+        let bufferSize = lengthBytesUTF8(walletAddress) + 1;
+        let buffer = _malloc(bufferSize);
+        stringToUTF8(str, buffer, bufferSize);
+        return buffer;
+    },
+   CurrentChain: function () {
         let currentChainId = window.ethereum.networkVersion;
         var bufferSize = lengthBytesUTF8(currentChainId) + 1;
         var buffer = _malloc(bufferSize);
@@ -24,21 +30,21 @@ var LibraryMyPlugin = {
         return buffer;
     },
     
-   OpenMetamaskWalletPopup: async function (){
+   WalletPopup: async function (){
         MyData.walletAddress = await ethereum.request({ method: 'eth_requestAccounts' });
     },
     
-    ChangeChain: async function (chainID){
+    ChangeCurrentChain: async function (chainID){
         MyData.error = await ethereum.request({
         method: 'wallet_switchEthereumChain',
         params: [{ chainId: UTF8ToString(chainID) }],
       });
     },
     
-   GetAccount: function () {
-        var str = JSON.stringify(MyData.walletAddress);
-        var bufferSize = lengthBytesUTF8(str) + 1;
-        var buffer = _malloc(bufferSize);
+   WalletAddress: function () {
+        const walletAddress = JSON.stringify(MyData.walletAddress);
+        let bufferSize = lengthBytesUTF8(walletAddress) + 1;
+        let buffer = _malloc(bufferSize);
         stringToUTF8(str, buffer, bufferSize);
         window.lync.Web3Init();
         return buffer;
@@ -69,14 +75,6 @@ var LibraryMyPlugin = {
               },
           ],
       });
-    },
-    
-    CheckIsWalletConnected: function (){
-        var str = JSON.stringify(MyData.walletAddress);
-        var bufferSize = lengthBytesUTF8(str) + 1;
-        var buffer = _malloc(bufferSize);
-        stringToUTF8(str, buffer, bufferSize);
-        return buffer;
     },
     SendTokens: function (ReceiverAddress,value){
       window.lync.SendTokens(UTF8ToString(ReceiverAddress),UTF8ToString(value));
