@@ -26,6 +26,60 @@ To choose the blockchain network, simply go to the CurrentChain drop-down menu a
 
 ![image](https://1898638688-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F3h3YUWYt8sR5rHLOIeFc%2Fuploads%2FHpqGkDLiEehF4j8lwzNU%2FLYNC%20metamask%20wallet%20sdk%20integration.png?alt=media&token=0d6c3d8a-4c09-44c0-99c1-58817059654a)
 
+## Integrating the Transaction Layer
+The Transactions are divided into 2 parts:
+1. No Code Transactions
+2. Modular Transactions
+
+```
+Note: Make sure to have "TransactionManager.cs" in your scene.
+```
+### No-code Transaction
+Check the No-Code-Transaction Scene in the Scenes folder.
+
+![image](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FutQhQ1f3Hy2b3URu0DVp%2Fuploads%2FbSCYoy1tSvils7tPiYiJ%2FScreenshot%202024-02-04%20at%208.23.48%E2%80%AFPM.png?alt=media&token=9ec20967-7bf1-4138-b585-a6864778ad1b)
+
+Check the No-Code TransactionExample GameObject, you can just pass in a few parameters to write on any custom contract inside the game.
+Just pass the following parameters:
+1. Contract Address - Type any contract address on the chain you selected in the LYNCInterface GameObject.
+2. ABI - You can get the contract ABI of a verified contract on the explorer.
+3. Function Name - Write the exact function name from the contract
+4. Cost - The cost required to do the transaction, if it's free you can pass 0 else pass the value in wei.
+5. Arguments - The arguments required by the transaction, are left blank if none.
+
+### Modular Transactions
+Check the Transaction Scene in the Scenes folder.
+
+![image](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FutQhQ1f3Hy2b3URu0DVp%2Fuploads%2FAcMC4oiVCxSeB3xG9f5o%2FScreenshot%202024-02-04%20at%2011.55.12%E2%80%AFPM.png?alt=media&token=6fd4eb56-131f-42d9-9b9c-db8287d65a6b)
+
+Check the TransactionExample GameObject, it has a TransactionExample.cs file attached. 
+
+This example contains 3 types of transaction transactions, ERC-721, ERC-1155 and ERC-20.
+
+![image](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FutQhQ1f3Hy2b3URu0DVp%2Fuploads%2F9eP8ehYPEZBAOWMlHEhx%2FScreenshot%202024-02-05%20at%2012.16.22%E2%80%AFAM.png?alt=media&token=5fca5e50-ba06-44f2-b8fb-c304fcbfbe24)
+
+In this example:
+1. send20Trx is a button to disable the button click once the transaction is initiated.
+2. contractAddress - is the contract address for a custom transaction. (In this case, it's an ERC-20 contract address on Mumbai Testnet)
+3. ABI - You can get the contract ABI of a verified contract on the explorer.
+4. functionName - Write the exact function name from the contract (In this case, sendToken)
+5. cost - The cost required to do the transaction, if it's free you can pass 0 else pass the value in wei. (In this case, as the function is not payable the value is 0).
+6. ParametersOfFunctions - You can pass in the arguments required for the transaction. (In this example, the argument is how much amount you want to send, 10000000000000000 is the value in wei, i.e 0.01 eth. You can pass n number of arguments separated with a comma( , ) ).
+7. args - Converts compatible to be a JSON
+8. Sending transaction -
+```
+TransactionManager.Instance.SendTransaction(LoadingScreen, contractAddress, ABI, functionName, args, cost, On20TrxCompleted, On20TrxFailed);
+```
+
+The above example explains a requirement for doing transactions.
+
+You can use the "TransactionManager.Instance.SendTransaction()" to send transactions from anywhere in the project, make sure to add the TransactionManager.cs file in the scene.
+It takes a LoadingScreen GameObject, contractAddress, ABI, functionName, args, and cost, as explained above and 2 more functions of type "System.Action<string>".
+These are not compulsory functions but they handle the Transaction Success or Failure.
+
+**On20TrxCompleted **- Handles once the transaction is completed. (It returns a transaction hash).
+**On20TrxFailed** - Handles if the transaction failed. (It returns a reason for transaction failure).
+
 ## Integrating ConnetWallet scene into the build 
 To deploy your Unity project, it's necessary to set up the Player Settings in Unity. Follow these steps to select the LYNC WebGL template.
 
