@@ -6,6 +6,9 @@ let provider, web3, walletAddress;
 window.lync={
     Web3Init,
     SendTokens,
+    SendTransaction,
+    contractResponse:"",
+    SetResponse,
 }
 
 async function Web3Init(){
@@ -45,6 +48,32 @@ ethereum.on("accountsChanged", (accounts) => {
         console.log("accountsChanged");
     }
 });
+
+function SetResponse(value){
+    lync.contractResponse = value;
+}
+
+async function SendTransaction(contractAddress,ContractABI, MintNFTFunctionName,Args,MintCost){
+    const Value=JSON.parse(Args)
+    const provider = new ethers.providers.Web3Provider(window.ethereum);
+    const Signer = provider.getSigner();
+    const nftContract = new ethers.Contract(contractAddress,ContractABI, Signer);
+    try{
+        let transaction = await nftContract[MintNFTFunctionName](
+            ...Value,
+            {
+                value: ethers.utils.parseEther(MintCost)
+            },
+        );
+        await transaction.wait().then((result)=>{
+            lync.contractResponse = result.transactionHash;
+            console.log(result.transactionHash);
+        },)
+    }
+    catch(error){
+        lync.contractResponse = error.reason;
+    }
+}
 
 // ethereum.on('chainChanged', (_chainId) => {
 //     // console.log("chainId"+_chainId);

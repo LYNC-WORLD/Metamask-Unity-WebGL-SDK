@@ -70,6 +70,37 @@ var LibraryMyPlugin = {
           ],
       });
     },
+
+    CopyString: function (value) {
+        var textField = document.createElement('textarea');
+        textField.value = UTF8ToString(value);
+        document.body.appendChild(textField);
+        textField.select();
+        document.execCommand('copy');
+        document.body.removeChild(textField);
+    },
+
+    returnResponse: function(){
+        var res = window.lync.contractResponse;
+        var bufferSize = lengthBytesUTF8(res) + 1;
+        var buffer = _malloc(bufferSize);
+        stringToUTF8(res, buffer, bufferSize);
+        return buffer;
+    },
+
+    setResponse: function(value){
+        window.lync.SetResponse(UTF8ToString(value))
+    },
+
+    SendTransaction: async function(ContractAddress,ContractABI,FunctionName,Args,MintCost){
+        window.lync.SendTransaction(
+            UTF8ToString(ContractAddress),
+            UTF8ToString(ContractABI),
+            UTF8ToString(FunctionName),
+            UTF8ToString(Args),
+            UTF8ToString(MintCost),
+        );
+    },
     
     CheckIsWalletConnected: function (){
         var str = JSON.stringify(MyData.walletAddress);
