@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/LYNC-Metamask-SDK/Scenes/FetchWallet.unity
     guid: d50af9452e0764a91a175b7c964b9294
+  - enabled: 1
+    path: Assets/LYNC-Metamask-SDK/Scenes/No-Code-Transaction.unity
+    guid: 14b90c4221d054f4491b72edeb09f874
   m_configObjects: {}

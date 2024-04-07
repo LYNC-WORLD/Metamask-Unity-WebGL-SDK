@@ -1,9 +1,9 @@
-Unity Editor version:    2021.3.2f1 (d6360bedb9a0)
+Unity Editor version:    2021.3.23f1 (213b516bf396)
 Branch:                  2021.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 13.1 (Build 22C65)
-Darwin version:          22.2.0
+macOS version:           Version 14.0 (Build 23A344)
+Darwin version:          23.0.0
 Architecture:            x86_64
 Running under Rosetta:   YES
 Available memory:        16384 MB
@@ -11,7 +11,7 @@ Using pre-set license
 Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/MacOS/Unity
+/Applications/Unity/Hub/Editor/2021.3.23f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54762
+62083
 Successfully changed project path to: /Users/shanujoshi/LYNC/UnitySDK/PublishedProject/Metamask-SDK
 /Users/shanujoshi/LYNC/UnitySDK/PublishedProject/Metamask-SDK
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,10 +54,14 @@ Successfully changed project path to: /Users/shanujoshi/LYNC/UnitySDK/PublishedP
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 102.02 ms, found 2 plugins.
+Player connection [8768266816] Host "[IP] 192.168.86.21 [Port] 0 [Flags] 2 [Guid] 1533849121 [EditorId] 1533849121 [Version] 1048832 [Id] OSXEditor(0,shanus-mbp.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8768266816] Host "[IP] 192.168.86.21 [Port] 0 [Flags] 2 [Guid] 1533849121 [EditorId] 1533849121 [Version] 1048832 [Id] OSXEditor(0,shanus-mbp.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 150.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Resources/UnitySubsystems
+Initialize engine version: 2021.3.23f1 (213b516bf396)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.23f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/shanujoshi/LYNC/UnitySDK/PublishedProject/Metamask-SDK/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
  preferred device: Apple M1 (high power)
@@ -66,102 +70,167 @@ Metal devices available: 1
 Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56577
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.23f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.23f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.23f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.2f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.2f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.000812 seconds.
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.23f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.23f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.23f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.23f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.002858 seconds.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 340 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 95.27 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 100.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.648 seconds
+- Completed reload, in  2.204 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1650ms)
-		BeginReloadAssembly (148ms)
+	ReloadAssembly (2207ms)
+		BeginReloadAssembly (252ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1259ms)
-			LoadAssemblies (144ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (120ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (1753ms)
+			LoadAssemblies (245ms)
+			RebuildTransferFunctionScriptingTraits (5ms)
+			SetupTypeCache (145ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (951ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (1400ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (112ms)
+				InitializePlatformSupportModulesInManaged (770ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (95ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (545ms)
-				ProcessInitializeOnLoadMethodAttributes (194ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (342ms)
+				ProcessInitializeOnLoadMethodAttributes (180ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002140 seconds.
+Registered in 0.005796 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/shanujoshi/LYNC/UnitySDK/PublishedProject/Metamask-SDK/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/shanujoshi/LYNC/UnitySDK/PublishedProject/Metamask-SDK/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/shanujoshi/LYNC/UnitySDK/PublishedProject/Metamask-SDK/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/shanujoshi/LYNC/UnitySDK/PublishedProject/Metamask-SDK/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for iOS target not found
+Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.507 seconds
+- Completed reload, in  3.550 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2509ms)
-		BeginReloadAssembly (228ms)
+	ReloadAssembly (3553ms)
+		BeginReloadAssembly (295ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (39ms)
+			DisableScriptedObjects (40ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (1989ms)
-			LoadAssemblies (106ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (2975ms)
+			LoadAssemblies (197ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (301ms)
+			SetupTypeCache (343ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (1342ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (2095ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (68ms)
-				SetLoadedEditorAssemblies (2ms)
+				InitializePlatformSupportModulesInManaged (103ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (134ms)
-				ProcessInitializeOnLoadAttributes (983ms)
-				ProcessInitializeOnLoadMethodAttributes (154ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (1645ms)
+				ProcessInitializeOnLoadMethodAttributes (198ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.23f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.19 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (119.3 KB). Loaded Objects now: 3823.
-Memory consumption went from 41.4 MB to 41.2 MB.
-Total: 2.948000 ms (FindLiveObjects: 0.227917 ms CreateObjectMapping: 0.083708 ms MarkObjects: 2.528375 ms  DeleteObjects: 0.107084 ms)
+Unloading 3072 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (63.4 KB). Loaded Objects now: 3532.
+Memory consumption went from 42.2 MB to 42.2 MB.
+Total: 11.374625 ms (FindLiveObjects: 0.388167 ms CreateObjectMapping: 0.115041 ms MarkObjects: 9.737084 ms  DeleteObjects: 1.110583 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002141 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/shanujoshi/LYNC/UnitySDK/PublishedProject/Metamask-SDK/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/shanujoshi/LYNC/UnitySDK/PublishedProject/Metamask-SDK/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.318 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3322ms)
+		BeginReloadAssembly (564ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (69ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (2539ms)
+			LoadAssemblies (205ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (339ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1716ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (102ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (1356ms)
+				ProcessInitializeOnLoadMethodAttributes (131ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3055 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (64.4 KB). Loaded Objects now: 3539.
+Memory consumption went from 103.7 MB to 103.7 MB.
+Total: 3.106625 ms (FindLiveObjects: 0.185708 ms CreateObjectMapping: 0.070500 ms MarkObjects: 2.719250 ms  DeleteObjects: 0.129459 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -175,7 +244,415 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 45402.261173 seconds.
-  path: Assets/LYNC-Metamask-SDK/Scenes/FetchWallet.unity
-  artifactKey: Guid(d50af9452e0764a91a175b7c964b9294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LYNC-Metamask-SDK/Scenes/FetchWallet.unity using Guid(d50af9452e0764a91a175b7c964b9294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce77ca600fdca7d90384b75319b3eea5') in 0.012801 seconds 
+  Time since last request: 19831.669163 seconds.
+  path: Assets/LYNC-Metamask-SDK/Editor
+  artifactKey: Guid(9dc111150708b41318d3535d3009668f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/Editor using Guid(9dc111150708b41318d3535d3009668f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7054995a8180d1b93f242bd13524d70') in 0.025629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.347072 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(5b7992e6e58a44c3983133bf213bb841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(5b7992e6e58a44c3983133bf213bb841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35eb513c90a90322cf3ba4ed7c062c9') in 0.002334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.579504 seconds.
+  path: Assets/WebGLTemplates
+  artifactKey: Guid(a5bdc45ebad3f4a9490ba6c3021c7bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLTemplates using Guid(a5bdc45ebad3f4a9490ba6c3021c7bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b091f2a0d3a75e4b4f8b6befae1b453') in 0.001493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/LYNC-Metamask-SDK/LYNC-UI/Sprites
+  artifactKey: Guid(e8e1bf97a1a5043ffbe2dbbf2c29e6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/LYNC-UI/Sprites using Guid(e8e1bf97a1a5043ffbe2dbbf2c29e6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46aa9326e2dbf6db69d522a74ff7e3ab') in 0.000666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/LYNC-Metamask-SDK/LYNC-UI/Animations/Toast/ToastStart.anim
+  artifactKey: Guid(7f2c493683a4b87489e2b25e179ea35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/LYNC-UI/Animations/Toast/ToastStart.anim using Guid(7f2c493683a4b87489e2b25e179ea35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be03d0722d4a3476d971d0fe2df64735') in 0.545617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/LYNC-Metamask-SDK/Scripts/UI
+  artifactKey: Guid(eb8d4d26e1384fd49b2067c498369ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/Scripts/UI using Guid(eb8d4d26e1384fd49b2067c498369ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02f345b2842784273cf7a68d2e5daea') in 0.000463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/LYNC-Metamask-SDK/Scripts/UI/Toast.cs
+  artifactKey: Guid(d84f4ffa0feeb4443b9daf3d92f08337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/Scripts/UI/Toast.cs using Guid(d84f4ffa0feeb4443b9daf3d92f08337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657658513a763e78389ecb081925f4ca') in 0.120303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/LYNC-Metamask-SDK/Lync-Prefabs/SendTokens.prefab
+  artifactKey: Guid(687b49fe994114a93bd20a2815af6b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/Lync-Prefabs/SendTokens.prefab using Guid(687b49fe994114a93bd20a2815af6b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83187e17d4b95655e8b2117f78ea6068') in 0.179878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/LYNC-Metamask-SDK/LYNC-UI/Animations
+  artifactKey: Guid(0165f84cb05789d4fa9a7737c17b0fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/LYNC-UI/Animations using Guid(0165f84cb05789d4fa9a7737c17b0fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a482e4c8b5228b53a6b772cd7420ac') in 0.001065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/LYNC-Metamask-SDK/LYNC-UI/Logo
+  artifactKey: Guid(7d925a36dd07146d18cb8010bb8b7e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/LYNC-UI/Logo using Guid(7d925a36dd07146d18cb8010bb8b7e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7318c8bdf70f1d17fa39802660c21d6a') in 0.001236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/LYNC-Metamask-SDK/LYNC-UI/Logo/MetaMask_Fox.svg.png
+  artifactKey: Guid(19f69a12d1f16405992aae2cb1e4622b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/LYNC-UI/Logo/MetaMask_Fox.svg.png using Guid(19f69a12d1f16405992aae2cb1e4622b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a5d07d9b98163f4037315c4b1b9336') in 0.851350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/LYNC-Metamask-SDK/Scripts/FetchWallet.cs
+  artifactKey: Guid(1e41856c3522544b9a4b692f2c800a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/Scripts/FetchWallet.cs using Guid(1e41856c3522544b9a4b692f2c800a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06a6dc94bd4fa74f838f1556829cbe0') in 0.001340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/LYNC-Metamask-SDK/Lync-Prefabs/No-Code TransactionExample.prefab
+  artifactKey: Guid(1a6e4775e57124d8fba94f28defb995d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/Lync-Prefabs/No-Code TransactionExample.prefab using Guid(1a6e4775e57124d8fba94f28defb995d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a48e6eab6b1f60e36bf7a91b159b8e') in 0.005511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/LYNC-Metamask-SDK/Lync-Prefabs/Toast.prefab
+  artifactKey: Guid(2b8862c8c9ff7d247a37cd72d424bea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/Lync-Prefabs/Toast.prefab using Guid(2b8862c8c9ff7d247a37cd72d424bea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e727e0372e4fd27825003a09105ccd40') in 0.077038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/LYNC-Metamask-SDK/Scenes/No-Code-Transaction.unity
+  artifactKey: Guid(14b90c4221d054f4491b72edeb09f874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/Scenes/No-Code-Transaction.unity using Guid(14b90c4221d054f4491b72edeb09f874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e3a7df5aa89e3aa7f71f868c9f9a18') in 0.001050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/LYNC-Metamask-SDK/Scripts/UI/ToastManager.cs
+  artifactKey: Guid(ca83c7a84668e7343885e743d47cc05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/Scripts/UI/ToastManager.cs using Guid(ca83c7a84668e7343885e743d47cc05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb38237e8977a312045e81c483c488d8') in 0.000893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/LYNC-Metamask-SDK/Scripts/UI/Singleton
+  artifactKey: Guid(9c9649b423236cb45baa807b04b142cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/Scripts/UI/Singleton using Guid(9c9649b423236cb45baa807b04b142cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590d50d3eafd0dd9d2bfe9959389a319') in 0.000520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/LYNC-Metamask-SDK/LYNC-Metamask-Wallet-SDK.dll
+  artifactKey: Guid(0c3e1dafebca642a8952f66ce5fa5d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/LYNC-Metamask-Wallet-SDK.dll using Guid(0c3e1dafebca642a8952f66ce5fa5d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70460c8fc0f528afa50b190d30cf54c') in 0.368520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Plugins/LYNCInterface.jslib
+  artifactKey: Guid(4a13e9b7db8d14246a0f3874eb967116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LYNCInterface.jslib using Guid(4a13e9b7db8d14246a0f3874eb967116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b812f78fbcc1c40c9365c4ca9c15cc27') in 0.515868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/WebGLTemplates/LYNC-Template/index.js
+  artifactKey: Guid(1212b08f056164049bf6a852ebef5a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLTemplates/LYNC-Template/index.js using Guid(1212b08f056164049bf6a852ebef5a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd95ed37dee2cf9ef258f94d0eda3f27') in 0.142448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/LYNC-Metamask-SDK/Editor/LYNCUpdateChecker.dll
+  artifactKey: Guid(acf5377af4be548b9a3a31de36149869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/Editor/LYNCUpdateChecker.dll using Guid(acf5377af4be548b9a3a31de36149869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65dc5a0cd24a333a8dbb586631a05f2f') in 0.001494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/WebGLTemplates/LYNC-Template/index.html
+  artifactKey: Guid(b0ca2c8f5ac154f7481b44c553c50dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLTemplates/LYNC-Template/index.html using Guid(b0ca2c8f5ac154f7481b44c553c50dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba97911b4349ca56c1da6b2eda7065d') in 0.131030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/LYNC-Metamask-SDK/LYNC-UI/copy-text.png
+  artifactKey: Guid(9cd84bebd87364f37ba0f253ed06b9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/LYNC-UI/copy-text.png using Guid(9cd84bebd87364f37ba0f253ed06b9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b862feea3122cda3ba6448e69145e511') in 0.023942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/WebGLTemplates/LYNC-Template/TemplateData/style.css
+  artifactKey: Guid(5050b6bb62a004a7b8ead33e509bcbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLTemplates/LYNC-Template/TemplateData/style.css using Guid(5050b6bb62a004a7b8ead33e509bcbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da25a5c781b0504ef1e0ed15fdadfb0') in 0.498442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/LYNC-Metamask-SDK/LYNC-UI/Animations/Loading
+  artifactKey: Guid(6a4114345593ca24b8309087611fc3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/LYNC-UI/Animations/Loading using Guid(6a4114345593ca24b8309087611fc3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76db02fcaf30b3481926900db5307279') in 0.000532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/LYNC-Metamask-SDK/LYNC-UI/Animations/Toast
+  artifactKey: Guid(1677fe7614bf44d74b6523c5519987ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/LYNC-UI/Animations/Toast using Guid(1677fe7614bf44d74b6523c5519987ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2446fdbea5c37c718529c7c81790bbcc') in 0.000515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/LYNC-Metamask-SDK/LYNC-UI/Animations/Toast/ToastEnd.anim
+  artifactKey: Guid(85abaafeea36fe64ba705a98eb380783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/LYNC-UI/Animations/Toast/ToastEnd.anim using Guid(85abaafeea36fe64ba705a98eb380783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc31ba6eb39cb2de5926c47a691b0e6') in 0.002535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/LYNC-Metamask-SDK/Scenes/ConnectWallet.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/Scenes/ConnectWallet.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a610f4bb0fa1413b21ec7b8762136d') in 0.000530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/WebGLTemplates/LYNC-Template/TemplateData/progress-bar-empty-dark.png
+  artifactKey: Guid(ae1c7c99b18424340888751eeee8bc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLTemplates/LYNC-Template/TemplateData/progress-bar-empty-dark.png using Guid(ae1c7c99b18424340888751eeee8bc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46b1d6e36eb7c6d48f485c3d022b20d') in 0.001325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/WebGLTemplates/LYNC-Template/TemplateData/progress-bar-empty-light.png
+  artifactKey: Guid(52bd558029be44556adae246f1859a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLTemplates/LYNC-Template/TemplateData/progress-bar-empty-light.png using Guid(52bd558029be44556adae246f1859a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bdf60c6b589400f48269527f291925e') in 0.001307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/LYNC-Metamask-SDK/Scripts/UI/Singleton/SingletonMonoBehaviour.cs
+  artifactKey: Guid(abf92d7da089fe542a827a826ba25313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/Scripts/UI/Singleton/SingletonMonoBehaviour.cs using Guid(abf92d7da089fe542a827a826ba25313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0b64b97cf6e04842d2346bf6cf951b') in 0.001114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/WebGLTemplates/LYNC-Template/web3/web3.min.js
+  artifactKey: Guid(cf319414f150a4b9ab80cff94de0ca1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLTemplates/LYNC-Template/web3/web3.min.js using Guid(cf319414f150a4b9ab80cff94de0ca1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a671c50f47beba873631120af289b1') in 0.001668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/WebGLTemplates/LYNC-Template/web3/ethers.min.js
+  artifactKey: Guid(a818fae5ee1bf48f0929a95ea73860d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLTemplates/LYNC-Template/web3/ethers.min.js using Guid(a818fae5ee1bf48f0929a95ea73860d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d98fe4297a0c715e2fe7f821354cac') in 0.001390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/LYNC-Metamask-SDK/Scenes/Transaction.unity
+  artifactKey: Guid(8aeaba48391a1594e972d0ef9078f7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/Scenes/Transaction.unity using Guid(8aeaba48391a1594e972d0ef9078f7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40cb0d51df2c336340cd5e408f468f26') in 0.000765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/LYNC-Metamask-SDK/Scripts/UI/ToastAlignment.cs
+  artifactKey: Guid(021dfe087c058474984cf73e0e211ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/Scripts/UI/ToastAlignment.cs using Guid(021dfe087c058474984cf73e0e211ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d277f9d4f1868d7ca6081d527a7a2b') in 0.000894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/WebGLTemplates/LYNC-Template/style.css
+  artifactKey: Guid(3e7d7742e17c14dfdab1eadff4bc4b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLTemplates/LYNC-Template/style.css using Guid(3e7d7742e17c14dfdab1eadff4bc4b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ed0899c95f03e1cf43a4bea60da654') in 0.001642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/LYNC-Metamask-SDK/Scripts
+  artifactKey: Guid(0f776bac10aec40c99cfc03e89529132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/Scripts using Guid(0f776bac10aec40c99cfc03e89529132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2d33bed867b2e2a4834a60bfbab462') in 0.000681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/WebGLTemplates/LYNC-Template/TemplateData/favicon.ico
+  artifactKey: Guid(9cef09b092b7b48c9bc10abfc63375ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLTemplates/LYNC-Template/TemplateData/favicon.ico using Guid(9cef09b092b7b48c9bc10abfc63375ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f51ca7bf002949e0bf4186bc246d81') in 0.313847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/LYNC-Metamask-SDK/LYNC-UI/Sprites/Square.png
+  artifactKey: Guid(0bfef906960344aa2be36eb1ed31ec36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/LYNC-UI/Sprites/Square.png using Guid(0bfef906960344aa2be36eb1ed31ec36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5486da87c456fc68a78c44571c7ff4c9') in 0.010006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/LYNC-Metamask-SDK/LYNC-UI/Logo/Black LOGO + TEXT.png
+  artifactKey: Guid(26928e5d85f45834a867ac972639966f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/LYNC-UI/Logo/Black LOGO + TEXT.png using Guid(26928e5d85f45834a867ac972639966f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580ffa7a4fd340d40baa9bae1dc231ad') in 0.018308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/LYNC-Metamask-SDK/Scripts/UI/ToastType.cs
+  artifactKey: Guid(59759814d4f56ca40a2ecbdb95b77cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/Scripts/UI/ToastType.cs using Guid(59759814d4f56ca40a2ecbdb95b77cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b900d4e0496268785fb44f8192c20d4e') in 0.001065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/LYNC-Metamask-SDK/LYNC-UI/Animations/Loading/Ripple.anim
+  artifactKey: Guid(ecf8cc2da780ae34bb86121c1866aafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/LYNC-UI/Animations/Loading/Ripple.anim using Guid(ecf8cc2da780ae34bb86121c1866aafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575c26b426f1c107e8ec87906245be3f') in 0.002192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/WebGLTemplates/LYNC-Template/TemplateData/progress-bar-full-dark.png
+  artifactKey: Guid(ac5a2197c542944c4b5e7584fe4d4aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLTemplates/LYNC-Template/TemplateData/progress-bar-full-dark.png using Guid(ac5a2197c542944c4b5e7584fe4d4aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d102efe5f4e827dbead8641481f445d') in 0.000986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/LYNC-Metamask-SDK/LYNC-UI/Sprites/9Sliced.png
+  artifactKey: Guid(9b364f6e3b3e6e6488838d667b578f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/LYNC-UI/Sprites/9Sliced.png using Guid(9b364f6e3b3e6e6488838d667b578f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71b426d6ac89159360da69d407e8892') in 0.009764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/LYNC-Metamask-SDK/LYNC-UI/Animations/Toast/ToastTimer.anim
+  artifactKey: Guid(8b9aa19e9ad4b6c47ab9fedae394a7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/LYNC-UI/Animations/Toast/ToastTimer.anim using Guid(8b9aa19e9ad4b6c47ab9fedae394a7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa694e7fc861d1b738ad4a8f4a9a648d') in 0.001484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/WebGLTemplates/LYNC-Template/TemplateData/fullscreen-button.png
+  artifactKey: Guid(635e05ae4548144798fb8b7274af337b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLTemplates/LYNC-Template/TemplateData/fullscreen-button.png using Guid(635e05ae4548144798fb8b7274af337b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87eb79c0e729049a028e3c70395209a8') in 0.001078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/LYNC-Metamask-SDK/Scripts/TransactionExample.cs
+  artifactKey: Guid(abaa73a8a0e0f3d4f885f99d3c250e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/Scripts/TransactionExample.cs using Guid(abaa73a8a0e0f3d4f885f99d3c250e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79dda56657ff989d7719f389335f70a3') in 0.000795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/LYNC-Metamask-SDK/Scripts/UI/Misc/Spawnable.cs
+  artifactKey: Guid(37dea7cb3ccc4e64da6ec4e333f01435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/Scripts/UI/Misc/Spawnable.cs using Guid(37dea7cb3ccc4e64da6ec4e333f01435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837d38e784135b0ba8529ec20187b022') in 0.000776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/WebGLTemplates/LYNC-Template
+  artifactKey: Guid(5b57eb0c5aeda46a681a27784ffff016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLTemplates/LYNC-Template using Guid(5b57eb0c5aeda46a681a27784ffff016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c636f16062bee518692e12a4c708925') in 0.000382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/LYNC-Metamask-SDK/LYNC-UI/Sprites/Loading
+  artifactKey: Guid(6d137a35db58f394fa0d959ca8640c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/LYNC-UI/Sprites/Loading using Guid(6d137a35db58f394fa0d959ca8640c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3483e14102ae335e823c83b29d8edf1b') in 0.000370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/WebGLTemplates/LYNC-Template/thumbnail.png
+  artifactKey: Guid(6966e949cadfa457889fbac7e8e7f0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLTemplates/LYNC-Template/thumbnail.png using Guid(6966e949cadfa457889fbac7e8e7f0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e7da9a63af8c9999beb69b369300a2') in 0.001099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/LYNC-Metamask-SDK/Scripts/NoCodeTransaction.cs
+  artifactKey: Guid(1b5fbae5f07b1437e881d542c628ffbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/Scripts/NoCodeTransaction.cs using Guid(1b5fbae5f07b1437e881d542c628ffbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb8d1866700af36ccbac8fbe1455be8') in 0.000952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/LYNC-Metamask-SDK/LYNC-UI/Sprites/icons8-close-100 (3).png
+  artifactKey: Guid(71def70ff4069e644b5616cb01d45fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/LYNC-UI/Sprites/icons8-close-100 (3).png using Guid(71def70ff4069e644b5616cb01d45fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a20e45297c59d5b1878da3fc4cf1792') in 0.007285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/LYNC-Metamask-SDK/Lync-Prefabs
+  artifactKey: Guid(9707717afcddd4daf858e9e6d06dd960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/Lync-Prefabs using Guid(9707717afcddd4daf858e9e6d06dd960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6bcfba9ec260b9bfe59ff972f1650e0') in 0.000606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/WebGLTemplates/LYNC-Template/web3
+  artifactKey: Guid(e17da86554d8245c7be55a417f24e6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLTemplates/LYNC-Template/web3 using Guid(e17da86554d8245c7be55a417f24e6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61d47a2417e831dff7f9a8b1caaa8fa') in 0.000363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/LYNC-Metamask-SDK/LYNC-UI/Animations/Toast/Toast.controller
+  artifactKey: Guid(ae705d4c007617d41ae092a6feddac41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/LYNC-UI/Animations/Toast/Toast.controller using Guid(ae705d4c007617d41ae092a6feddac41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d48ba4ea17c5b73d35f2bc56f686452') in 0.066698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/LYNC-Metamask-SDK/LYNC-UI/Sprites/icons8-error-100 (1).png
+  artifactKey: Guid(200885bdf7083694582979d1e245b82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/LYNC-UI/Sprites/icons8-error-100 (1).png using Guid(200885bdf7083694582979d1e245b82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b1daa8180be9a773e77765b4595188') in 0.007707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/WebGLTemplates/LYNC-Template/TemplateData/webgl-logo.png
+  artifactKey: Guid(3fc2cdae7699a46528583e11c359a6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLTemplates/LYNC-Template/TemplateData/webgl-logo.png using Guid(3fc2cdae7699a46528583e11c359a6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d2d1ed2e1c87a611dec2ce72003729') in 0.001388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/LYNC-Metamask-SDK/LYNC-UI
+  artifactKey: Guid(d29655873bbf8463788432a4ad89e02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/LYNC-UI using Guid(d29655873bbf8463788432a4ad89e02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c10ffbeef0a15ef7877d8b058ae7707') in 0.000575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/LYNC-Metamask-SDK/LYNC-UI/Sprites/icons8-correct-100.png
+  artifactKey: Guid(d3e62fa98c1895e4b99d313a50f24d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/LYNC-UI/Sprites/icons8-correct-100.png using Guid(d3e62fa98c1895e4b99d313a50f24d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f81022fdabd300331e6171fe1c4bd8f') in 0.007154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/LYNC-Metamask-SDK/LYNC-UI/Sprites/icons8-info-100.png
+  artifactKey: Guid(f159fb658ef76ca48951e4e3b0a9d012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/LYNC-UI/Sprites/icons8-info-100.png using Guid(f159fb658ef76ca48951e4e3b0a9d012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e2b5d3524e7b96d65d944c14b1532d') in 0.007514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/LYNC-Metamask-SDK/Scripts/UI/Misc
+  artifactKey: Guid(c0bc158005cac554399325fdbf31d63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/Scripts/UI/Misc using Guid(c0bc158005cac554399325fdbf31d63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1ceba9f93eace0824423b49d75ef3f') in 0.000587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/WebGLTemplates/LYNC-Template/TemplateData/progress-bar-full-light.png
+  artifactKey: Guid(98ad37ea1f8e1476595003fd1a526ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLTemplates/LYNC-Template/TemplateData/progress-bar-full-light.png using Guid(98ad37ea1f8e1476595003fd1a526ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e7d32bcd642b8e98c163bf7903cffa') in 0.001088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/LYNC-Metamask-SDK/LYNC-UI/Sprites/Loading/Ripple.png
+  artifactKey: Guid(a6d2bbb2538524e469ce553f3dd33072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/LYNC-UI/Sprites/Loading/Ripple.png using Guid(a6d2bbb2538524e469ce553f3dd33072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d4a0dbdae80ce95d280a83b36088e0') in 0.085435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/LYNC-Metamask-SDK/LYNC-UI/Animations/Loading/Loading Animator.controller
+  artifactKey: Guid(b6b157caa1903244ea534a802deb8e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/LYNC-UI/Animations/Loading/Loading Animator.controller using Guid(b6b157caa1903244ea534a802deb8e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc946e4e74f8e9e5c2c4a68de7cdfb98') in 0.002297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/WebGLTemplates/LYNC-Template/TemplateData
+  artifactKey: Guid(1ab91017d6abc41bbaa2c8328332a8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLTemplates/LYNC-Template/TemplateData using Guid(1ab91017d6abc41bbaa2c8328332a8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81c730c3132a43e6fe07e99ecd9a5b5') in 0.000571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/WebGLTemplates/LYNC-Template/TemplateData/unity-logo-dark.png
+  artifactKey: Guid(47eef8205072c4b4e9cde6f0bf5d4659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLTemplates/LYNC-Template/TemplateData/unity-logo-dark.png using Guid(47eef8205072c4b4e9cde6f0bf5d4659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3eb63dbe50a1b0c54d547e0ca99539') in 0.001241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/WebGLTemplates/LYNC-Template/TemplateData/unity-logo-light.png
+  artifactKey: Guid(e6aa072c2ee5e4816a91775c4dd361aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLTemplates/LYNC-Template/TemplateData/unity-logo-light.png using Guid(e6aa072c2ee5e4816a91775c4dd361aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8c84b3d2b5b203aa2bef53db1cffbd') in 0.001129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/LYNC-Metamask-SDK/LYNC-UI/Sprites/icons8-error-100.png
+  artifactKey: Guid(d03e072d59c95f544be7a39306f4b145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LYNC-Metamask-SDK/LYNC-UI/Sprites/icons8-error-100.png using Guid(d03e072d59c95f544be7a39306f4b145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82de881889c1dda2233b2f56c8562d6') in 0.008651 seconds 
